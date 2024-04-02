@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Countdown Timer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='timer.css'>
+    <script src='timer.js'></script>
+</head>
+<body>
+    <div class="timer-container">
+        <div class="insertTime">
+            <label for="hours">시:</label>
+            <input type="number" id="hours" min="0" max="23" value="0">
+            <label for="minutes">분:</label>
+            <input type="number" id="minutes" min="0" max="59" value="0">
+            <label for="seconds">초:</label>
+            <input type="number" id="seconds" min="0" max="59" value="0">
+        </div>
+        <div class="timer">
+            <div id="display">00:00:00</div>
+            <button id="start" onclick="start()">START</button>
+            <button id="stop" onclick="stop()">STOP</button>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+    </div>
+</body>
+</html>
