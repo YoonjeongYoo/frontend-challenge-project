@@ -6,4 +6,4 @@
 
 ![스크린샷 2024-04-02 222642](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/4ca2b412-8460-4002-982c-b64c1fdfdfcd)
 --
-:date:3일차 : [**To-Do 리스트**]()
+:date:3일차 : [**To-Do 리스트**](https://yoonjeongyoo.github.io/frontend-challenge-project/03_ToDoList/todoList.html)
