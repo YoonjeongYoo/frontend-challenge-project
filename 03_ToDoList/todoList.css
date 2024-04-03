@@ -20,6 +20,16 @@ h1 {
     color: #007bff;
 }
 
+/* 필터 버튼 스타일 */
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    margin: 0 5px;
+}
+
 /* 입력 부분 스타일 */
 .input-wrapper {
     display: flex;
@@ -89,4 +99,8 @@ button:hover {
 
 .task input[type="checkbox"] {
     margin-right: 10px;
+}
+
+.task > * {
+    margin-right: 10px; /* 각 항목 요소 사이의 간격 */
 }
