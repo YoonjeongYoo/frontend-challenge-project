@@ -1,0 +1,92 @@
+/* 전체적인 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* 입력 부분 스타일 */
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-wrapper > * {
+    margin-right: 10px;
+}
+
+.input-wrapper input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* 우선순위 선택 부분 스타일 */
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.select-wrapper::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #007bff;
+}
+
+/* 추가 버튼 스타일 */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 할 일 목록 스타일 */
+.task {
+    margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
