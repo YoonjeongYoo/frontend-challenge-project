@@ -14,6 +14,12 @@
             <button onclick="filterTasks('completed')">완료</button>
             <button onclick="filterTasks('uncompleted')">미완료</button>
         </div>
+        <div class="sort-options">
+            <select id="prioritySort" onchange="sortTasks(this.value)">
+                <option value="asc">높은 순</option>
+                <option value="desc">낮은 순</option>
+            </select>
+        </div>
         <div class="input-wrapper">
             <input type="text" id="taskInput" placeholder="할 일 추가하기">
             <div class="select-wrapper">

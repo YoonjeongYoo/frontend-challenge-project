@@ -104,3 +104,33 @@ button:hover {
 .task > * {
     margin-right: 10px; /* 각 항목 요소 사이의 간격 */
 }
+
+
+.sort-options {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right; /* 오른쪽 정렬 */
+}
+
+#prioritySort {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#prioritySort option {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+#prioritySort option:hover {
+    background-color: #007bff;
+    color: #fff;
+}

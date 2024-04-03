@@ -10,7 +10,8 @@ function addTask() {
     const task = {
       text: taskText,
       priority: priorityValue,
-      completed: false
+      completed: false,
+      date: new Date()
     };
     tasks.push(task);
     renderTasks();
@@ -29,6 +30,24 @@ function filterTasks(filter) {
     }
   });
   renderFilteredTasks(filteredTasks);
+}
+
+function sortTasks(sortType) {
+  switch (sortType) {
+    case "desc": // 우선순위가 높은 순
+      tasks.sort((a, b) => {
+        return a.priority.localeCompare(b.priority);
+      });
+      break;
+    case "asc": // 우선순위가 낮은 순
+      tasks.sort((a, b) => {
+        return b.priority.localeCompare(a.priority);
+      });
+      break;
+    default:
+      break;
+  }
+  renderTasks();
 }
 
 function renderFilteredTasks(filteredTasks) {
