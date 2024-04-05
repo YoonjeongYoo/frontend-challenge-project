@@ -16,4 +16,4 @@
 
 ![스크린샷 2024-04-04 222000](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/c1dabcc6-fa4a-43b2-8fd8-ee8b71c121c0)
 --
-:mending_heart: 5일차 : [**클론코딩**]()
+:mending_heart: 5일차 : [**클론코딩**](https://yoonjeongyoo.github.io/frontend-challenge-project/05_miniIntern/intern.html)
