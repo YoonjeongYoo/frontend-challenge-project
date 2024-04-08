@@ -17,3 +17,9 @@
 ![스크린샷 2024-04-04 222000](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/c1dabcc6-fa4a-43b2-8fd8-ee8b71c121c0)
 --
 :mending_heart: 5일차 : [**클론코딩**](https://yoonjeongyoo.github.io/frontend-challenge-project/05_miniIntern/intern.html)
+
+![스크린샷 2024-04-05 221002](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/ce03c4c0-4020-4a32-8a04-797053997340)
+--
+:left_right_arrow: 6일차 : [**이미지 슬라이드 (캐러셀) 만들기 1**](https://yoonjeongyoo.github.io/frontend-challenge-project/06_Slide/slide.html)
+
+ 
