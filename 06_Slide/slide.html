@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>슬라이드 구현</title>
+  <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="slide"><img src="rabbit_1.jpeg" alt="Image 1"></div>
+    <div class="slide"><img src="rabbit_2.jpeg" alt="Image 2"></div>
+    <div class="slide"><img src="rabbit_3.jpeg" alt="Image 3"></div>
+    <div class="slide"><img src="big.jpg" alt="Image 4"></div>
+    <!-- Add more slides as needed -->
+  </div>
+  <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+  <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+</div>
+
+<script src="slide.js"></script>
+
+</body>
+</html>
