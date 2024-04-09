@@ -25,5 +25,11 @@
 ![스크린샷 2024-04-08 120227](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/fb0acd23-abe5-4c70-bac5-761e42aab9c5)
 ![스크린샷 2024-04-08 120256](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/c39c059c-cf89-460d-9edb-d2688fc4530d)
 --
+:left_right_arrow: 7일차 : [**이미지 슬라이드 (캐러셀) 만들기 2**](https://yoonjeongyoo.github.io/frontend-challenge-project/07_Slide2/slide.html)
+
+![image](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/4c91767a-6330-4dc4-a49a-6c63260da2d6)
+--
+
+
 
  
