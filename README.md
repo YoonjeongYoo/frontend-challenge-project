@@ -29,6 +29,7 @@
 
 ![image](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/4c91767a-6330-4dc4-a49a-6c63260da2d6)
 --
+:left_right_arrow: 8일차 : [**만들어진 슬라이드 5일차 미니인턴 클론 페이지에 붙이기**](https://yoonjeongyoo.github.io/frontend-challenge-project/08_miniIntern+slide/intern.html)
 
 
 
