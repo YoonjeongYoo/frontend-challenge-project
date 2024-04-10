@@ -1,0 +1,318 @@
+/* intern.css */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* 로고 부분 */
+.brand-logo {
+    display: inline-block; /* 인라인 요소를 블록 요소로 변환 */
+    vertical-align: middle; /* 세로 가운데 정렬 */
+}
+
+/* 로고 이미지 */
+.brand-logo img {
+    height: 40px; /* 로고 이미지의 높이 설정 */
+}
+
+/* 네비게이션 부분 */
+.center-nav, .right-nav {
+    display: inline-block; /* 인라인 요소를 블록 요소로 변환 */
+    vertical-align: middle; /* 세로 가운데 정렬 */
+}
+
+/* 네비게이션 요소 */
+.center-nav ul, .right-nav ul {
+    list-style: none; /* 목록 기호 제거 */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.center-nav ul li, .right-nav ul li {
+    display: inline; /* 인라인 요소로 배치 */
+    margin-right: 10px; /* 각 네비게이션 요소 사이의 간격 */
+    display: flex;
+}
+
+.center-nav ul li:last-child, .right-nav ul li:last-child {
+    margin-right: 0; /* 마지막 네비게이션 요소의 오른쪽 마진 제거 */
+}
+
+/* 네비게이션 링크 */
+.center-nav ul li a, .right-nav ul li a {
+    color: #000000; /* 텍스트 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    padding: 10px 10px; /* 패딩 추가 */
+    border: 1px solid #fff; /* 테두리 추가 */
+    border-radius: 5px; /* 테두리 모서리 둥글게 */
+    font-family: 'Noto Sans KR', sans-serif; /* Google Fonts 적용 */
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between; /* 좌우 정렬 */
+    align-items: center; /* 수직 정렬 */
+    font-size: 14px; /* 헤더 내 모든 텍스트의 크기 설정 */
+    padding: 0 100px; /* 헤더 내부 padding 설정 */
+}
+
+.right-nav {
+    margin-right: 10px; /* 오른쪽 네비게이션의 오른쪽 margin 설정 */
+}
+
+.img_round {
+    border-radius: 10px;
+}
+
+.one {
+    display: flex;
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 */
+    margin: 30px 0;
+}
+
+.one_1 img {
+    height: 400px;
+    margin: 0 10px;
+}
+
+.one_2 img {
+    height: 400px;
+    margin: 0 10px;
+}
+
+.two_text {
+    margin: 30px 0;
+    padding: 0 200px;
+}
+
+.two_text_1{
+    font-size: 30px;
+}
+
+.two_text_1{
+    font-size: 25px;
+}
+
+.two {
+    margin: 30px 0;
+    padding: 0 220px;
+}
+
+.two_ul {
+    list-style: none; /* 목록 기호 제거 */
+    display: flex;
+    flex-wrap: wrap; /* 요소가 넘칠 경우 줄바꿈 */
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+}
+
+.two_li {
+    border-radius: 5px;
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    font-family: 'Noto Sans KR', sans-serif; /* Google Fonts 적용 */
+    margin: 10px; /* 각 요소의 간격 설정 */
+    flex-basis: calc(25% - 20px); /* 요소의 너비 설정 */
+    max-width: calc(25% - 20px); /* 요소의 최대 너비 설정 */
+    box-sizing: border-box; /* 요소의 너비와 패딩을 동일한 크기로 계산 */
+    
+}
+
+.two_box {
+    width: 216px; /* 너비 설정 */
+    border-radius: 10px; /* 테두리 둥글게 설정 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+.two_box_img {
+    width: 216px; /* 이미지 컨테이너의 너비 설정 */
+    height: 162px; /* 이미지 컨테이너의 높이 설정 */
+    border-radius: 10px; /* 테두리 둥글게 설정 */
+    overflow: hidden; /* 내부 요소의 넘치는 부분을 숨김 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    display: flex; /* 내부 요소들을 정렬하기 위해 플렉스 박스로 설정 */
+    justify-content: center; /* 내부 요소들을 가로 방향 가운데 정렬 */
+    align-items: center; /* 내부 요소들을 세로 방향 가운데 정렬 */
+}
+
+.two_box_img img {
+    max-width: 100%; /* 이미지의 최대 너비를 컨테이너에 맞게 설정 */
+    max-height: 100%; /* 이미지의 최대 높이를 컨테이너에 맞게 설정 */
+}
+
+.two_box_info {
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif; /* Noto Sans 폰트 설정 */
+    font-size: 14px; /* 폰트 크기 설정 */
+    font-weight: bold; /* 굵은 글꼴 설정 */
+}
+
+.two_box_info_status * {
+    display: inline; /* 모든 하위 요소를 인라인 요소로 설정 */
+    font-family: 'Noto Sans', sans-serif; /* Noto Sans 폰트 설정 */
+    font-size: 12px; /* 폰트 크기 설정 */
+    font-weight: bold; /* 굵은 글꼴 설정 */
+}
+
+.status_day {
+    border-radius: 30px; /* 텍스트를 둥글게 감싸기 */
+    background-color: #000; /* 배경색을 검은색으로 설정 */
+    color: #fff; /* 텍스트를 흰색으로 설정 */
+    padding: 5px 10px; /* 텍스트 주변에 여백 추가 */
+    display: inline-block; /* 인라인 블록 요소로 설정하여 둥글게 감싸기 적용 */
+    margin-right: 5px; /* 오른쪽 마진 설정 */
+}
+
+.three {
+    margin: 60px 0;
+    padding: 0 220px;
+    display: inline; /* 모든 하위 요소를 인라인 요소로 설정 */
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+/* 공통 스타일 */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    height: 100%; /* slider 영역 내부에서 세로 높이 설정 */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    border-radius: inherit; /* 슬라이드에 부모 컨테이너의 라운드 처리 상속 */
+    margin: 0 auto; /* 가운데 정렬을 위한 수정 */
+    max-width: 100%; /* 캐러셀의 최대 너비를 부모 요소에 맞춤 */
+    width: 100%; /* 너비를 부모 요소에 맞춤 */
+    height: 100%; /* 세로 크기를 부모 요소에 맞춤 */
+    position: relative; /* 상대적 위치 설정 */
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; /* slide의 높이를 carousel-container에 맞춤 */
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* 50%의 높이만큼 위로 이동하여 상하 중앙에 정렬 */
+    cursor: pointer;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.7); /* 투명도 조정 변경 */
+    padding: 10px;
+    border: none; /* 화살표 버튼의 border 제거 추가 */
+    outline: none; /* 포커스 효과 제거 추가 */
+    color: #333; /* 화살표 색상 변경 */
+}
+
+.arrow.left {
+    left: 10px; /* 좌측 여백 조정 변경 */
+}
+
+.arrow.right {
+    right: 10px; /* 우측 여백 조정 변경 */
+}
+
+.arrow:hover {
+    background: rgba(255, 255, 255, 0.9); /* 화살표에 호버 효과 추가 변경 */
+}
+
+/* 이미지 스타일 */
+.slide img {
+    max-width: 100%; /* 최대 가로 너비 설정 */
+    max-height: 100%; /* 최대 세로 높이 설정 */
+    width: auto; /* 가로 크기 자동 조정 */
+    height: auto; /* 세로 크기 자동 조정 */
+    object-fit: contain; /* 이미지가 부모 요소에 맞춰서 비율을 유지하며 출력됨 */
+    display: block; /* 이미지를 블록 요소로 설정하여 가운데 정렬을 적용할 수 있도록 함 */
+    margin: auto; /* 가로 방향과 세로 방향 모두를 자동으로 설정하여 가운데 정렬함 */
+    border-radius: 10px; /* 이미지의 테두리를 둥글게 처리함 */
+}
+
+
+.slider {
+    width: 335px; /* 넓이 설정 */
+    height: 220px; /* 높이 설정 */
+}
+
+.three_text{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.three_text_1 {
+    font-family: 'Noto Sans', sans-serif; /* Noto Sans 폰트 설정 */
+    font-size: 16px; /* 폰트 크기 설정 */
+    color: #939999; /* 텍스트 색상 설정 */
+    font-weight:500;
+}
+
+.three_text_2 {
+    font-family: 'Noto Sans', sans-serif; /* Noto Sans 폰트 설정 */
+    font-size: 21px; /* 폰트 크기 설정 */
+    font-weight: bold; /* 굵은 글꼴 설정 */
+    color: #000000; /* 텍스트 색상 설정 */
+}
+
+.four {
+    margin: 60px 0;
+    padding: 0 220px;
+}
+
+.four_ul {
+    list-style: none; /* 목록 기호 제거 */
+    display: flex;
+    flex-wrap: wrap; /* 요소가 넘칠 경우 줄바꿈 */
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+}
+
+.four_li {
+    border-radius: 5px;
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    font-family: 'Noto Sans KR', sans-serif; /* Google Fonts 적용 */
+    margin: 10px; /* 각 요소의 간격 설정 */
+    flex-basis: calc(50% - 20px); /* 요소의 너비 설정 */
+    max-width: calc(50% - 20px); /* 요소의 최대 너비 설정 */
+    box-sizing: border-box; /* 요소의 너비와 패딩을 동일한 크기로 계산 */
+}
+
+.four_li a {
+    display: block;
+    width: 430px;
+}
+
+
+
+.four_box {
+    width: 430px; /* 너비 설정 */
+    border-radius: 10px; /* 테두리 둥글게 설정 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    display: inline;
+    display: flex;
+}
+
+.four_box_img {
+    width: 144px; /* 이미지 컨테이너의 너비 설정 */
+    height: 144px; /* 이미지 컨테이너의 높이 설정 */
+    border-radius: 10px; /* 테두리 둥글게 설정 */
+    overflow: hidden; /* 내부 요소의 넘치는 부분을 숨김 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    display: flex; /* 내부 요소들을 정렬하기 위해 플렉스 박스로 설정 */
+    justify-content: center; /* 내부 요소들을 가로 방향 가운데 정렬 */
+    align-items: center; /* 내부 요소들을 세로 방향 가운데 정렬 */
+}
+
+.four_box_img img {
+    max-width: 100%; /* 이미지의 최대 너비를 컨테이너에 맞게 설정 */
+    max-height: 100%; /* 이미지의 최대 높이를 컨테이너에 맞게 설정 */
+}
