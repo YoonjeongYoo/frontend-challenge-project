@@ -1,0 +1,70 @@
+/* CSS 코드 */
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SEBANG_Gothic_Bold';
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #276fff;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* 배경색 전환 애니메이션 */
+    border-radius: 5px; /* 모서리를 둥글게 만듦 */
+  }
+  
+  .navbar a:hover {
+    background-color: #dddddd;
+    color: rgb(255, 255, 255);
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar a {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {
+        position: relative;
+
+    }
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+    .navbar.responsive a:not(.icon) {
+      padding-right: 20px; /* 조정 가능한 값 */
+    }
+    .navbar.responsive a:first-child {
+        margin-top: 50px; /* 첫 번째 메뉴만 아래로 옮김 */
+      }
+  }
+  
