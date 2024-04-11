@@ -31,6 +31,17 @@
 --
 :left_right_arrow: 8일차 : [**만들어진 슬라이드 5일차 미니인턴 클론 페이지에 붙이기**](https://yoonjeongyoo.github.io/frontend-challenge-project/08_miniIntern+slide/intern.html)
 
+![스크린샷 2024-04-10 225038](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/64ac0bb7-0e9b-483d-acb5-efd19ee48683)
+--
+
+:thought_balloon: 9일차 : [**반응형 네비게이션 & 메뉴바 만들기**](https://yoonjeongyoo.github.io/frontend-challenge-project/09_navBar/nav.html)
+
+![스크린샷 2024-04-11 150844](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/d71813e9-29bc-49c6-9f8b-1eef1f625f20)
+![스크린샷 2024-04-11 150903](https://github.com/YoonjeongYoo/frontend-challenge-project/assets/145105916/13967ec0-0975-4b92-b660-fd1a9260612d)
+--
+
+
+
 
 
  
